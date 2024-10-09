@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a1535761-4a19-4f06-8b25-337f3f1eaeae" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/sidebar-bootstrap" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/AJAX/Branch.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/AJAX/Dashboard.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/AJAX/Products.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/AJAX/SalesReport.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/AJAX/UserManagement.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/controller/ProductController.php" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/model/UserModel.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/view/Dashboard.php" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/view/EmployeeSales.php" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/view/Products.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2mmLHof6o1gmBnx5U7it1yFqV3k" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;L:/Downloads/Capstone_part_2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="L:\Downloads\Capstone_part_2" />
+      <recent name="L:\Downloads\Capstone_part_2\Assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="L:\Downloads\Capstone_part_2" />
+      <recent name="L:\Downloads\Capstone_part_2\src\view" />
+      <recent name="L:\Downloads\Capstone_part_2\Assets" />
+      <recent name="L:\Downloads\Capstone_part_2\src" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-php-predefined-ba97393d7c68-6f8e3395a2b4-com.jetbrains.php.sharedIndexes-PS-233.14475.35" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a1535761-4a19-4f06-8b25-337f3f1eaeae" name="Changes" comment="" />
+      <created>1727676719820</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727676719820</updated>
+      <workItem from="1727676722578" duration="5279000" />
+      <workItem from="1727749891811" duration="599000" />
+      <workItem from="1727755910440" duration="1799000" />
+      <workItem from="1727773064720" duration="599000" />
+      <workItem from="1727787069968" duration="1321000" />
+      <workItem from="1727788421121" duration="12654000" />
+      <workItem from="1727830180308" duration="6673000" />
+      <workItem from="1727846750609" duration="11076000" />
+      <workItem from="1727875261411" duration="356000" />
+      <workItem from="1727875632729" duration="14389000" />
+      <workItem from="1727912335208" duration="234000" />
+      <workItem from="1727920185385" duration="13758000" />
+      <workItem from="1727952162819" duration="3705000" />
+      <workItem from="1727958438784" duration="410000" />
+      <workItem from="1727960951914" duration="10410000" />
+      <workItem from="1727998894261" duration="16298000" />
+      <workItem from="1728016886360" duration="5634000" />
+      <workItem from="1728033679835" duration="1458000" />
+      <workItem from="1728035155587" duration="939000" />
+      <workItem from="1728042464603" duration="6433000" />
+      <workItem from="1728134992834" duration="6424000" />
+      <workItem from="1728167589045" duration="3483000" />
+      <workItem from="1728182932016" duration="59000" />
+      <workItem from="1728194533804" duration="483000" />
+      <workItem from="1728203686808" duration="9256000" />
+      <workItem from="1728223215695" duration="10710000" />
+      <workItem from="1728263797060" duration="3179000" />
+      <workItem from="1728294344147" duration="4308000" />
+      <workItem from="1728305154355" duration="4799000" />
+      <workItem from="1728339681891" duration="4392000" />
+      <workItem from="1728348439475" duration="4004000" />
+      <workItem from="1728371633820" duration="2585000" />
+      <workItem from="1728395599312" duration="2357000" />
+      <workItem from="1728399637571" duration="1769000" />
+      <workItem from="1728401460593" duration="3507000" />
+      <workItem from="1728406522742" duration="792000" />
+      <workItem from="1728424464277" duration="1507000" />
+      <workItem from="1728433702509" duration="97000" />
+      <workItem from="1728438393012" duration="1891000" />
+      <workItem from="1728443069790" duration="1932000" />
+      <workItem from="1728449888943" duration="1479000" />
+      <workItem from="1728454199548" duration="130000" />
+      <workItem from="1728513452497" duration="610000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

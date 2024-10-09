@@ -1,0 +1,1 @@
+<?phpnamespace model;use config\DbConnection;include_once '../config/DbConnection.php';class LowStackModel extends DbConnection{    public function DisplayLowStack()    {        $result = $this->Connect()->query("SELECT * FROM product WHERE current_stack <= 5 ORDER BY current_stack");    }}
