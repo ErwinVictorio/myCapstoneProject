@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1535761-4a19-4f06-8b25-337f3f1eaeae" name="Changes" comment="" />
+    <list default="true" id="a1535761-4a19-4f06-8b25-337f3f1eaeae" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/capstone_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/capstone_logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Admin_login.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Admin_login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Dashboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Employee_login.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Employee_login.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +29,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/sidebar-bootstrap" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/AJAX/Branch.js" root0="SKIP_INSPECTION" />
@@ -51,6 +59,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;L:/Downloads/Capstone_part_2&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -71,9 +80,9 @@
       <recent name="L:\Downloads\Capstone_part_2\Assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="L:\Downloads\Capstone_part_2\Assets" />
       <recent name="L:\Downloads\Capstone_part_2" />
       <recent name="L:\Downloads\Capstone_part_2\src\view" />
-      <recent name="L:\Downloads\Capstone_part_2\Assets" />
       <recent name="L:\Downloads\Capstone_part_2\src" />
     </key>
   </component>
@@ -134,7 +143,8 @@
       <workItem from="1728443069790" duration="1932000" />
       <workItem from="1728449888943" duration="1479000" />
       <workItem from="1728454199548" duration="130000" />
-      <workItem from="1728513452497" duration="610000" />
+      <workItem from="1728513452497" duration="1651000" />
+      <workItem from="1728521647038" duration="4071000" />
     </task>
     <servers />
   </component>

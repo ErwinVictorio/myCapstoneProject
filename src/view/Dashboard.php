@@ -84,7 +84,7 @@
                 </a>
             </div>
         </aside>
-        <div style="background-color: #DDE8FO" class="p-3">
+        <div style="background-color: #DDE8F0" class="p-3">
             <div class="container-fluid">
                 <!-- fox boxes-->
                 <div class="container-fluid row gap-3 p-3">
