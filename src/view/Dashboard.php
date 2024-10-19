@@ -89,7 +89,7 @@
                 <!-- fox boxes-->
                 <div class="container-fluid row gap-3 p-3">
                     <!-- card -->
-                    <div  style="background-color: #e7515a" class="card col-lg-3 text-light border-0">
+                    <div  style="background-color: #e7515a" class="card col-lg-5 text-light border-0">
                         <div class="card-body d-flex justify-content-around align-items-center ">
                             <div>
                                 <h6 class="card-title fw-bold">LOW STACK ALERT</h6>
@@ -107,13 +107,13 @@
                             </lord-icon>
                         </div>
                         <div class="card-footer border-0 bg-transparent">
-                            <a class="text-light"  href="./LowStacks_List.php" >View</a>
+                            <a class="text-light"  href="./LowSatackList.php" >View</a>
                         </div>
                     </div>
 
 
                     <!-- card -->
-                    <div  style="background-color:#4361ee" class="card col-lg-3 text-light border-0">
+                    <div  style="background-color:#4361ee" class="card col-lg-5 text-light border-0">
                         <div class="card-body d-flex justify-content-around align-items-center ">
                             <div>
                                 <h6 class="card-title fw-bold">SALES</h6>
@@ -137,7 +137,7 @@
                     </div>
 
                      <!-- card -->
-                    <div  style="background-color:#2196f3" class="card col-lg-3 text-light border-0">
+                    <div  style="background-color:#2196f3" class="card col-lg-5 text-light border-0">
                         <div class="card-body d-flex justify-content-around align-items-center ">
                             <div>
                                 <h6 class="card-title fw-bold">EMPLOYEE</h6>
@@ -160,7 +160,7 @@
                     </div>
 
              <!-- card -->
-                    <div  style="background-color:#805dca" class="card col-lg-3 text-light border-0">
+                    <div  style="background-color:#805dca" class="card col-lg-5 text-light border-0">
                         <div class="card-body d-flex justify-content-around align-items-center ">
                             <div>
                                 <h6 class="card-title fw-bold">PRODUCTS</h6>
