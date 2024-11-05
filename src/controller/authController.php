@@ -1,0 +1,1 @@
+<?phpnamespace controller;class authController{}
