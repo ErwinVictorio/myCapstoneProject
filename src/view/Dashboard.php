@@ -26,7 +26,7 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
-<body >
+<body>
     <div class="wrapper">
         <aside id="sidebar">
             <div class="d-flex">
@@ -89,7 +89,7 @@
                 </li>
             </ul>
         </aside>
-        <div style="background-color: #DDE8F0" class="p-3">
+        <div class="p-3">
             <div class="container-fluid">
                 <!-- fox boxes-->
                 <div class="container-fluid row gap-3 p-3">

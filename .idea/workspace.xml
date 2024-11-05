@@ -5,25 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1535761-4a19-4f06-8b25-337f3f1eaeae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AJAX/employeeView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/authController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/employeeViewController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/authModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/employeeViewModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7c89abba-a118-4f98-b102-a5b095354779.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7c89abba-a118-4f98-b102-a5b095354779.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/Branch.js" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/Branch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/Dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/Products.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/SalesReport.js" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/SalesReport.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/UserManagement.js" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/UserManagement.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/EmployeeSaleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/EmployeeSaleController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/EmployeeSalesModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/EmployeeSalesModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/ProductModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ProductModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/branchModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/branchModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Admin_login.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Admin_login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/authController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/authController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/authModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/authModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/employeeViewModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/employeeViewModel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/Dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Dashboard.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Products.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Products.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Employee_login.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Employee_login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/LowSatackList.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/LowSatackList.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/employeeView.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/employeeView.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +46,7 @@
     <setting file="file://$PROJECT_DIR$/src/view/Admin_login.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/view/Dashboard.php" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/view/EmployeeSales.php" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/view/Employee_login.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/view/LowSatackList.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/view/Products.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/view/employeeView.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
@@ -197,7 +188,7 @@
       <workItem from="1730639413216" duration="72000" />
       <workItem from="1730643052127" duration="57000" />
       <workItem from="1730677575377" duration="7100000" />
-      <workItem from="1730811053109" duration="1700000" />
+      <workItem from="1730811053109" duration="7515000" />
     </task>
     <servers />
   </component>
