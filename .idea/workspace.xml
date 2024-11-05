@@ -5,17 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1535761-4a19-4f06-8b25-337f3f1eaeae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/bg.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/lowStackController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AJAX/employeeView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/authController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/employeeViewController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/authModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/employeeViewModel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/LowStackModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/LowStackModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/UserModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/UserModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/Branch.js" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/Branch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/Dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/Products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/SalesReport.js" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/SalesReport.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/UserManagement.js" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/UserManagement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/EmployeeSaleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/EmployeeSaleController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/EmployeeSalesModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/EmployeeSalesModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/ProductModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ProductModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/branchModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/branchModel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/Admin_login.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Admin_login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/Dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Dashboard.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Employee_login.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Employee_login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/LowSatackList.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/LowSatackList.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/employeeView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Products.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Products.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/employeeView.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/employeeView.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +50,10 @@
     <setting file="file://$PROJECT_DIR$/AJAX/Products.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/AJAX/SalesReport.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/AJAX/UserManagement.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/AJAX/employeeView.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/controller/ProductController.php" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/model/UserModel.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/view/Admin_login.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/view/Dashboard.php" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/view/EmployeeSales.php" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/view/LowSatackList.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
@@ -61,32 +72,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;L:/PhpstormProjects/CapstoneProject&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "L:/PhpstormProjects/INVENTORY-MANAGEMENT-SYSTEM",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="L:\PhpstormProjects\INVENTORY-MANAGEMENT-SYSTEM" />
+      <recent name="L:\PhpstormProjects\INVENTORY-MANAGEMENT-SYSTEM\AJAX" />
       <recent name="L:\PhpstormProjects\INVENTORY-MANAGEMENT-SYSTEM\Assets" />
       <recent name="L:\Downloads\Capstone_part_2" />
       <recent name="L:\Downloads\Capstone_part_2\Assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="L:\PhpstormProjects\INVENTORY-MANAGEMENT-SYSTEM\AJAX" />
       <recent name="L:\Downloads\Capstone_part_2\Assets" />
       <recent name="L:\Downloads\Capstone_part_2" />
       <recent name="L:\Downloads\Capstone_part_2\src\view" />
@@ -159,7 +173,31 @@
       <workItem from="1729256864556" duration="4453000" />
       <workItem from="1729299128705" duration="4158000" />
       <workItem from="1729324955798" duration="5435000" />
-      <workItem from="1729342874109" duration="8962000" />
+      <workItem from="1729342874109" duration="9471000" />
+      <workItem from="1729387934346" duration="20000" />
+      <workItem from="1729571362326" duration="1722000" />
+      <workItem from="1729580991084" duration="1258000" />
+      <workItem from="1729995078333" duration="44000" />
+      <workItem from="1730197433412" duration="486000" />
+      <workItem from="1730253930851" duration="70000" />
+      <workItem from="1730254122151" duration="457000" />
+      <workItem from="1730292212146" duration="1307000" />
+      <workItem from="1730336059852" duration="1751000" />
+      <workItem from="1730338543072" duration="1935000" />
+      <workItem from="1730340999306" duration="914000" />
+      <workItem from="1730361963565" duration="11141000" />
+      <workItem from="1730375632885" duration="6012000" />
+      <workItem from="1730421964384" duration="2847000" />
+      <workItem from="1730508081830" duration="6643000" />
+      <workItem from="1730545315765" duration="1500000" />
+      <workItem from="1730546854693" duration="839000" />
+      <workItem from="1730550869032" duration="3354000" />
+      <workItem from="1730591299666" duration="102000" />
+      <workItem from="1730592627828" duration="7310000" />
+      <workItem from="1730639413216" duration="72000" />
+      <workItem from="1730643052127" duration="57000" />
+      <workItem from="1730677575377" duration="7100000" />
+      <workItem from="1730811053109" duration="1700000" />
     </task>
     <servers />
   </component>

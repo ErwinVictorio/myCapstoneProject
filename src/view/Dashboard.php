@@ -1,6 +1,12 @@
+<?php
+  session_start();
+  if (!$_SESSION['admin']){
+      header('Location: ./Admin_login.php');
+  }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -75,14 +81,13 @@
                         <span>Account Settings</span>
                     </a>
                 </li>
-
+                 <li class="sidebar-item">
+                     <a href="../../AJAX/admin_logout.php" id="logout" class="btn">
+                         <i class="lni text-danger lni-exit"></i>
+                         <span>Logout</span>
+                     </a >
+                </li>
             </ul>
-            <div class="sidebar-footer">
-                <a href="#" class="sidebar-link">
-                    <i class="lni lni-exit"></i>
-                    <span>Logout</span>
-                </a>
-            </div>
         </aside>
         <div style="background-color: #DDE8F0" class="p-3">
             <div class="container-fluid">
@@ -212,11 +217,10 @@
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
     <script>
-
-
-
     </script>
 <script src="../../AJAX/Dashboard.js"></script>
-</body>
 
+</body>
 </html>
+
+<
