@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1535761-4a19-4f06-8b25-337f3f1eaeae" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7c89abba-a118-4f98-b102-a5b095354779.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7c89abba-a118-4f98-b102-a5b095354779.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AJAX/employeeView.js" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/employeeView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/authModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/authModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Employee_login.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Employee_login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/SalesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/SalesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/authController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/authController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/employeeViewController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/employeeViewController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/SalesModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/SalesModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/employeeViewModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/employeeViewModel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/employeeView.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/employeeView.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +67,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;L:/PhpstormProjects/INVENTORY-MANAGEMENT-SYSTEM&quot;,
+    &quot;last_opened_file_path&quot;: &quot;L:/PhpstormProjects/CapstoneProject&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -187,10 +190,26 @@
       <workItem from="1730811053109" duration="7515000" />
       <workItem from="1730857463795" duration="700000" />
       <workItem from="1730858247373" duration="3634000" />
+      <workItem from="1730879407380" duration="2362000" />
+      <workItem from="1730893052094" duration="8662000" />
+      <workItem from="1730939790260" duration="1771000" />
+      <workItem from="1730942780293" duration="5450000" />
+      <workItem from="1730983368242" duration="8083000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
