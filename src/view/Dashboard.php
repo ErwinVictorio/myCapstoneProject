@@ -25,8 +25,19 @@
     <!--    cdn sweet alert-->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
-
-<body>
+<style>
+    ::root{
+        Steel #7E7F90
+        Blueberry #303150
+        Night Sky #2B2B46
+        Dodger #69ADFF
+        Ice Cream #F7F7F8
+        Light Grey #BDBDCB
+        White #FFFFFF
+        Baby Blue #C1DDFF , #74ACEF
+    }
+</style>
+<body style="background-color: #2B2B46">
     <div class="wrapper">
         <aside id="sidebar">
             <div class="d-flex">
@@ -84,7 +95,7 @@
                  <li class="sidebar-item">
                      <a href="../../AJAX/admin_logout.php" id="logout" class="btn">
                          <i class="lni text-danger lni-exit"></i>
-                         <span>Logout</span>
+                         <span style="font-size: 10px" class="text-light">Logout</span>
                      </a >
                 </li>
             </ul>
@@ -94,7 +105,7 @@
                 <!-- fox boxes-->
                 <div class="container-fluid row gap-3 p-3">
                     <!-- card -->
-                    <div  style="background-color: #e7515a" class="card col-lg-5 text-light border-0">
+                    <div  style="background-color: #303150" class="card col-lg-5 text-light border-0">
                         <div class="card-body d-flex justify-content-around align-items-center ">
                             <div>
                                 <h6 class="card-title fw-bold">LOW STACK ALERT</h6>
@@ -118,7 +129,7 @@
 
 
                     <!-- card -->
-                    <div  style="background-color:#4361ee" class="card col-lg-5 text-light border-0">
+                    <div  style="background-color: #303150" class="card col-lg-5 text-light border-0">
                         <div class="card-body d-flex justify-content-around align-items-center ">
                             <div>
                                 <h6 class="card-title fw-bold">SALES</h6>
@@ -142,7 +153,7 @@
                     </div>
 
                      <!-- card -->
-                    <div  style="background-color:#2196f3" class="card col-lg-5 text-light border-0">
+                    <div  style="background-color: #303150" class="card col-lg-5 text-light border-0">
                         <div class="card-body d-flex justify-content-around align-items-center ">
                             <div>
                                 <h6 class="card-title fw-bold">EMPLOYEE</h6>
@@ -165,7 +176,7 @@
                     </div>
 
              <!-- card -->
-                    <div  style="background-color:#805dca" class="card col-lg-5 text-light border-0">
+                    <div  style="background-color: #303150" class="card col-lg-5 text-light border-0">
                         <div class="card-body d-flex justify-content-around align-items-center ">
                             <div>
                                 <h6 class="card-title fw-bold">PRODUCTS</h6>
@@ -210,16 +221,13 @@
                 </div>
             </div>
         </div>
-
     </div>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
     <script>
     </script>
 <script src="../../AJAX/Dashboard.js"></script>
-
 </body>
 </html>
 
