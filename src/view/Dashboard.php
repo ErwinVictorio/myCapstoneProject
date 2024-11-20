@@ -4,7 +4,6 @@
       header('Location: ./Admin_login.php');
   }
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,18 +11,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
-    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../style.css">
-    <script src="https://cdn.lordicon.com/lordicon.js"></script>
-    <!-- cdn for icons -->
-    <script src="https://kit.fontawesome.com/d4532539ca.js" crossorigin="anonymous"></script>
-    <!-- chart cdn -->
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <!--    cdn sweet alert-->
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <?php
+     require '../../includes/cdn.php'
+    ?>
 </head>
 <style>
     ::root{
@@ -38,6 +28,64 @@
     }
 </style>
 <body style="background-color: #2B2B46">
+
+<!-- Modal for change password and username for admin -->
+<div class="modal fade" id="updateCredentialModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div  class="modal-content">
+            <div style="background-color: #2B2B46" class="modal-header">
+                <h5 class="modal-title fs-5 text-light" id="staticBackdropLabel">Update Credential</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="form-floating mb-3">
+                    <input name="username" type="text" class="form-control" id="username" placeholder="New Username">
+                    <label for="username">New Username</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input name="password" type="password" class="form-control" id="username" placeholder="New Password">
+                    <label for="username">New Password</label>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button style="background-color: #2B2B46" type="button" class="btn text-light">Save Changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal for create new account for admin -->
+<div class="modal fade" id="CreateCredentialModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div  class="modal-content">
+            <div style="background-color: #2B2B46" class="modal-header">
+                <h5 class="modal-title fs-5 text-light" id="staticBackdropLabel">Create New Account</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="form-floating mb-3">
+                    <input name="NewUsername" type="text" class="form-control" id="NewUsername" placeholder="Username">
+                    <label for="NewUsername">Username</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input name="NewPassword" type="password" class="form-control" id="NewPassword" placeholder="Password">
+                    <label for="NewPassword">Password</label>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button style="background-color: #2B2B46" type="button" class="btn text-light">Create Now</button>
+            </div>
+        </div>
+    </div>
+</div>
+
     <div class="wrapper">
         <aside id="sidebar">
             <div class="d-flex">
@@ -87,12 +135,22 @@
                     </a>
                 </li>
                 <li class="sidebar-item">
-                    <a href="#" class="sidebar-link">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                       data-bs-target="#Settings" aria-expanded="false" aria-controls="auth">
                         <i class="fa-solid fa-gear"></i>
-                        <span>Account Settings</span>
+                        <span>Settings</span>
                     </a>
+                    <ul id="Settings" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                        <li style="cursor: pointer" class="sidebar-item">
+                            <a data-bs-target="#updateCredentialModal" data-bs-toggle="modal" class="sidebar-link">Change Password</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" data-bs-target="#CreateCredentialModal" data-bs-toggle="modal" class="sidebar-link">Create New Account</a>
+                        </li>
+                    </ul>
                 </li>
-                 <li class="sidebar-item">
+
+                <li class="sidebar-item">
                      <a href="../../AJAX/admin_logout.php" id="logout" class="btn">
                          <i class="lni text-danger lni-exit"></i>
                          <span style="font-size: 10px" class="text-light">Logout</span>
@@ -105,7 +163,7 @@
                 <!-- fox boxes-->
                 <div class="container-fluid row gap-3 p-3">
                     <!-- card -->
-                    <div  style="background-color: #303150" class="card col-lg-5 text-light border-0">
+                    <div  style="background-color: #3b82f6" class="card col-lg-5 text-light border-0">
                         <div class="card-body d-flex justify-content-around align-items-center ">
                             <div>
                                 <h6 class="card-title fw-bold">LOW STACK ALERT</h6>
@@ -127,9 +185,8 @@
                         </div>
                     </div>
 
-
                     <!-- card -->
-                    <div  style="background-color: #303150" class="card col-lg-5 text-light border-0">
+                    <div  style="background-color: #818cf8" class="card  col-lg-5 text-light border-0">
                         <div class="card-body d-flex justify-content-around align-items-center ">
                             <div>
                                 <h6 class="card-title fw-bold">SALES</h6>
@@ -153,7 +210,7 @@
                     </div>
 
                      <!-- card -->
-                    <div  style="background-color: #303150" class="card col-lg-5 text-light border-0">
+                    <div style="background-color: #34d399"  class="card  col-lg-5 text-light border-0">
                         <div class="card-body d-flex justify-content-around align-items-center ">
                             <div>
                                 <h6 class="card-title fw-bold">EMPLOYEE</h6>
@@ -176,7 +233,7 @@
                     </div>
 
              <!-- card -->
-                    <div  style="background-color: #303150" class="card col-lg-5 text-light border-0">
+                    <div  style="background-color: #14B898" class="card col-lg-5 text-light border-0">
                         <div class="card-body d-flex justify-content-around align-items-center ">
                             <div>
                                 <h6 class="card-title fw-bold">PRODUCTS</h6>
