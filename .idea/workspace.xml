@@ -5,21 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1535761-4a19-4f06-8b25-337f3f1eaeae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/includes/cdn.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/7c89abba-a118-4f98-b102-a5b095354779.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7c89abba-a118-4f98-b102-a5b095354779.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AJAX/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/Dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/Products.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/employeeViewController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/employeeViewController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/ProductModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ProductModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/authController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/authController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/EmployeeSalesModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/EmployeeSalesModel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/authModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/authModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Branch.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Branch.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/Dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Dashboard.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/EmployeeSales.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/EmployeeSales.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Products.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Products.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/employeeView.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/employeeView.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +66,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;L:/PhpstormProjects/INVENTORY-MANAGEMENT-SYSTEM&quot;,
+    &quot;last_opened_file_path&quot;: &quot;L:/Downloads/online_resort_reservation&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -216,7 +209,11 @@
       <workItem from="1731642771979" duration="387000" />
       <workItem from="1732087193685" duration="471000" />
       <workItem from="1732101778156" duration="830000" />
-      <workItem from="1732102640017" duration="14913000" />
+      <workItem from="1732102640017" duration="15220000" />
+      <workItem from="1732144077449" duration="72000" />
+      <workItem from="1732157274948" duration="1632000" />
+      <workItem from="1732191048335" duration="9784000" />
+      <workItem from="1732203280331" duration="2876000" />
     </task>
     <servers />
   </component>
@@ -233,16 +230,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/src/view/EmployeeSales.php</url>
-          <line>46</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

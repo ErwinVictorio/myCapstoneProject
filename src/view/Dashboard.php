@@ -39,13 +39,13 @@
             </div>
             <div class="modal-body">
                 <div class="form-floating mb-3">
-                    <input name="username" type="text" class="form-control" id="username" placeholder="New Username">
-                    <label for="username">New Username</label>
+                    <input name="updateUserName" type="text" class="form-control" id="updateUserName" placeholder="New Username">
+                    <label for="updateUserName">New Username</label>
                 </div>
 
                 <div class="form-floating mb-3">
-                    <input name="password" type="password" class="form-control" id="username" placeholder="New Password">
-                    <label for="username">New Password</label>
+                    <input name="updatedPassword" type="password" class="form-control" id="updatedPassword" placeholder="New Password">
+                    <label for="updatedPassword">New Password</label>
                 </div>
 
             </div>
@@ -60,7 +60,7 @@
 
 <!-- Modal for create new account for admin -->
 <div class="modal fade" id="CreateCredentialModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
+    <form id="createAdninAccount" action="../controller/authController.php" class="modal-dialog modal-dialog-centered">
         <div  class="modal-content">
             <div style="background-color: #2B2B46" class="modal-header">
                 <h5 class="modal-title fs-5 text-light" id="staticBackdropLabel">Create New Account</h5>
@@ -68,22 +68,30 @@
             </div>
             <div class="modal-body">
                 <div class="form-floating mb-3">
+                    <input name="Newfullname" type="text" class="form-control" id="Newfullname" placeholder="Username">
+                    <label for="Newfullname">Username</label>
+                    <div id="Newfullname_msg" class="invalid-feedback"></div>
+                </div>
+
+                <div class="form-floating mb-3">
                     <input name="NewUsername" type="text" class="form-control" id="NewUsername" placeholder="Username">
                     <label for="NewUsername">Username</label>
+                    <div id="NewUsername_msg" class="invalid-feedback"></div>
                 </div>
 
                 <div class="form-floating mb-3">
                     <input name="NewPassword" type="password" class="form-control" id="NewPassword" placeholder="Password">
                     <label for="NewPassword">Password</label>
+                    <div id="NewPassword_msg" class="invalid-feedback"></div>
                 </div>
 
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button style="background-color: #2B2B46" type="button" class="btn text-light">Create Now</button>
+                <button style="background-color: #2B2B46" type="submit" class="btn text-light">Create Now</button>
             </div>
         </div>
-    </div>
+    </form>
 </div>
 
     <div class="wrapper">
