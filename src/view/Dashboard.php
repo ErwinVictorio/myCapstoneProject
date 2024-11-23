@@ -31,30 +31,26 @@
 
 <!-- Modal for change password and username for admin -->
 <div class="modal fade" id="updateCredentialModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
+    <form id="updateCrdentialForm" class="modal-dialog modal-dialog-centered">
         <div  class="modal-content">
             <div style="background-color: #2B2B46" class="modal-header">
                 <h5 class="modal-title fs-5 text-light" id="staticBackdropLabel">Update Credential</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <div class="form-floating mb-3">
-                    <input name="updateUserName" type="text" class="form-control" id="updateUserName" placeholder="New Username">
-                    <label for="updateUserName">New Username</label>
-                </div>
-
-                <div class="form-floating mb-3">
-                    <input name="updatedPassword" type="password" class="form-control" id="updatedPassword" placeholder="New Password">
-                    <label for="updatedPassword">New Password</label>
-                </div>
-
+                <?php
+                $username = $_SESSION['admin'];
+                include '../controller/authController.php';
+                $admin = new \controller\authController();
+                $admin->showCredential($username)
+                ?>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button style="background-color: #2B2B46" type="button" class="btn text-light">Save Changes</button>
+                <button style="background-color: #2B2B46" type="submit" class="btn text-light">Save Changes</button>
             </div>
         </div>
-    </div>
+    </form>
 </div>
 
 
