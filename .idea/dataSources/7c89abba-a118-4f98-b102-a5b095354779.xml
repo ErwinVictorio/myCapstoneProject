@@ -1157,7 +1157,7 @@ test\\_%|schema||&apos;&apos;||UPDATE|G</Grants>
     </schema>
     <schema id="329" parent="1" name="inventory_management">
       <Current>1</Current>
-      <LastIntrospectionLocalTimestamp>2024-11-20.12:06:21</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-12-08.12:49:16</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb4_general_ci</CollationName>
     </schema>
     <schema id="330" parent="1" name="mysql">
@@ -1235,253 +1235,256 @@ test\\_%|schema||&apos;&apos;||UPDATE|G</Grants>
     <schema id="354" parent="1" name="textapp">
       <CollationName>utf8mb4_general_ci</CollationName>
     </schema>
-    <user id="355" parent="1" name="root">
-      <Host>localhost</Host>
-    </user>
+    <schema id="355" parent="1" name="coffe-shop-inventory">
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </schema>
     <user id="356" parent="1" name="root">
-      <Host>127.0.0.1</Host>
+      <Host>localhost</Host>
     </user>
     <user id="357" parent="1" name="root">
+      <Host>127.0.0.1</Host>
+    </user>
+    <user id="358" parent="1" name="root">
       <Host>::1</Host>
     </user>
-    <user id="358" parent="1" name="pma">
+    <user id="359" parent="1" name="pma">
       <Host>localhost</Host>
     </user>
-    <table id="359" parent="329" name="admin">
+    <table id="360" parent="329" name="admin">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="360" parent="329" name="brance">
+    <table id="361" parent="329" name="brance">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="361" parent="329" name="employee">
+    <table id="362" parent="329" name="employee">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="362" parent="329" name="product">
+    <table id="363" parent="329" name="product">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="363" parent="329" name="report_sales">
+    <table id="364" parent="329" name="report_sales">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="364" parent="329" name="sales">
+    <table id="365" parent="329" name="sales">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <column id="365" parent="359" name="adminId">
+    <column id="366" parent="360" name="adminId">
+      <AutoIncrement>1</AutoIncrement>
+      <DasType>int(10) unsigned|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="367" parent="360" name="fullname">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="368" parent="360" name="username">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="369" parent="360" name="password">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <index id="370" parent="360" name="PRIMARY">
+      <ColNames>adminId</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="371" parent="360" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="372" parent="361" name="id">
+      <AutoIncrement>13</AutoIncrement>
+      <DasType>int(10) unsigned|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="373" parent="361" name="Branch_Name">
+      <DasType>varchar(255)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="374" parent="361" name="status">
+      <DasType>varchar(100)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <index id="375" parent="361" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="376" parent="361" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="377" parent="362" name="employeeId">
       <AutoIncrement>2</AutoIncrement>
       <DasType>int(10) unsigned|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="366" parent="359" name="fullname">
+    <column id="378" parent="362" name="username">
       <DasType>varchar(255)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="367" parent="359" name="username">
+    <column id="379" parent="362" name="password">
       <DasType>varchar(255)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="368" parent="359" name="password">
-      <DasType>varchar(255)|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>4</Position>
-    </column>
-    <index id="369" parent="359" name="PRIMARY">
-      <ColNames>adminId</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <key id="370" parent="359" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
-    </key>
-    <column id="371" parent="360" name="id">
-      <AutoIncrement>11</AutoIncrement>
-      <DasType>int(10) unsigned|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-    </column>
-    <column id="372" parent="360" name="Branch_Name">
-      <DasType>varchar(255)|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>2</Position>
-    </column>
-    <column id="373" parent="360" name="status">
-      <DasType>varchar(100)|0s</DasType>
-      <Position>3</Position>
-    </column>
-    <index id="374" parent="360" name="PRIMARY">
-      <ColNames>id</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <key id="375" parent="360" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
-    </key>
-    <column id="376" parent="361" name="employeeId">
-      <AutoIncrement>9</AutoIncrement>
-      <DasType>int(10) unsigned|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-    </column>
-    <column id="377" parent="361" name="username">
-      <DasType>varchar(255)|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>2</Position>
-    </column>
-    <column id="378" parent="361" name="password">
-      <DasType>varchar(255)|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>3</Position>
-    </column>
-    <column id="379" parent="361" name="Branch">
+    <column id="380" parent="362" name="Branch">
       <DasType>varchar(100)|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="380" parent="361" name="is_deleted_employee">
+    <column id="381" parent="362" name="is_deleted_employee">
       <DasType>varchar(100)|0s</DasType>
       <Position>5</Position>
     </column>
-    <index id="381" parent="361" name="PRIMARY">
+    <index id="382" parent="362" name="PRIMARY">
       <ColNames>employeeId</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="382" parent="361" name="PRIMARY">
+    <key id="383" parent="362" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="383" parent="362" name="product_id">
+    <column id="384" parent="363" name="product_id">
       <AutoIncrement>37</AutoIncrement>
       <DasType>int(11)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="384" parent="362" name="unit_price">
+    <column id="385" parent="363" name="unit_price">
       <DasType>decimal(10,2 digit)|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="385" parent="362" name="current_stack">
+    <column id="386" parent="363" name="current_stack">
       <DasType>int(11)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="386" parent="362" name="branch">
+    <column id="387" parent="363" name="branch">
       <DasType>varchar(255)|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="387" parent="362" name="product_name">
+    <column id="388" parent="363" name="product_name">
       <DasType>varchar(255)|0s</DasType>
       <Position>5</Position>
     </column>
-    <column id="388" parent="362" name="item_color">
+    <column id="389" parent="363" name="item_color">
       <DasType>varchar(100)|0s</DasType>
       <Position>6</Position>
     </column>
-    <column id="389" parent="362" name="Status">
+    <column id="390" parent="363" name="Status">
       <DasType>varchar(100)|0s</DasType>
       <Position>7</Position>
     </column>
-    <index id="390" parent="362" name="PRIMARY">
+    <index id="391" parent="363" name="PRIMARY">
       <ColNames>product_id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="391" parent="362" name="PRIMARY">
+    <key id="392" parent="363" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="392" parent="363" name="id">
+    <column id="393" parent="364" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DasType>int(10) unsigned|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="393" parent="363" name="Sales_date">
+    <column id="394" parent="364" name="Sales_date">
       <DasType>time|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="394" parent="363" name="total_sales">
+    <column id="395" parent="364" name="total_sales">
       <DasType>decimal(8,2 digit)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="395" parent="363" name="total_quantity_sold">
+    <column id="396" parent="364" name="total_quantity_sold">
       <DasType>int(11)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <index id="396" parent="363" name="PRIMARY">
+    <index id="397" parent="364" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="397" parent="363" name="PRIMARY">
+    <key id="398" parent="364" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="398" parent="364" name="sales_id">
-      <AutoIncrement>1</AutoIncrement>
+    <column id="399" parent="365" name="sales_id">
+      <AutoIncrement>14</AutoIncrement>
       <DasType>int(10) unsigned|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="399" parent="364" name="product_id">
+    <column id="400" parent="365" name="product_id">
       <DasType>int(11)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="400" parent="364" name="quantity_sold">
+    <column id="401" parent="365" name="quantity_sold">
       <DasType>int(11)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="401" parent="364" name="sale_amount">
+    <column id="402" parent="365" name="sale_amount">
       <DasType>decimal(8,2 digit)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="402" parent="364" name="Sales_date">
+    <column id="403" parent="365" name="Sales_date">
       <DasType>date|0s</DasType>
       <Position>5</Position>
     </column>
-    <column id="403" parent="364" name="branch">
+    <column id="404" parent="365" name="branch">
       <DasType>varchar(100)|0s</DasType>
       <Position>6</Position>
     </column>
-    <column id="404" parent="364" name="EmployeeName">
+    <column id="405" parent="365" name="EmployeeName">
       <DasType>varchar(250)|0s</DasType>
       <Position>7</Position>
     </column>
-    <foreign-key id="405" parent="364" name="sales_ibfk_1">
+    <foreign-key id="406" parent="365" name="sales_ibfk_1">
       <ColNames>product_id</ColNames>
       <OnDelete>cascade</OnDelete>
       <OnUpdate>cascade</OnUpdate>
       <RefColNames>product_id</RefColNames>
       <RefTableName>product</RefTableName>
     </foreign-key>
-    <index id="406" parent="364" name="PRIMARY">
+    <index id="407" parent="365" name="PRIMARY">
       <ColNames>sales_id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="407" parent="364" name="sales_ibfk_1">
+    <index id="408" parent="365" name="sales_ibfk_1">
       <ColNames>product_id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="408" parent="364" name="PRIMARY">
+    <key id="409" parent="365" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>

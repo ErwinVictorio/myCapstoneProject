@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1535761-4a19-4f06-8b25-337f3f1eaeae" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7c89abba-a118-4f98-b102-a5b095354779.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7c89abba-a118-4f98-b102-a5b095354779.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/Dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/authController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/authController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/authModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/authModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Branch.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Branch.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Dashboard.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/EmployeeSales.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/EmployeeSales.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/LowSatackList.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/LowSatackList.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Products.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Products.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/SalesReport.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/SalesReport.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/UserManagement.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/UserManagement.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/employeeView.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/employeeView.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +66,8 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;L:/Downloads/online_resort_reservation&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;new-branch-master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;L:/PhpstormProjects/INVENTORY-MANAGEMENT-SYSTEM&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -218,7 +220,18 @@
       <workItem from="1732329108006" duration="3546000" />
       <workItem from="1732346682026" duration="5467000" />
       <workItem from="1732356483533" duration="1800000" />
-      <workItem from="1732367761767" duration="3810000" />
+      <workItem from="1732367761767" duration="5008000" />
+      <workItem from="1732373309297" duration="618000" />
+      <workItem from="1732810218025" duration="527000" />
+      <workItem from="1732810769758" duration="1024000" />
+      <workItem from="1733186746129" duration="362000" />
+      <workItem from="1733535438025" duration="70000" />
+      <workItem from="1733619121165" duration="4043000" />
+      <workItem from="1733624497596" duration="325000" />
+      <workItem from="1733662103698" duration="3224000" />
+      <workItem from="1733707088504" duration="605000" />
+      <workItem from="1733751492818" duration="392000" />
+      <workItem from="1733752708057" duration="746000" />
     </task>
     <servers />
   </component>
