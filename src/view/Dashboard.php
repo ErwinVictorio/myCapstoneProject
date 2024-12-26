@@ -15,25 +15,13 @@
      require '../../includes/cdn.php'
     ?>
 </head>
-<style>
-    ::root{
-        Steel #7E7F90
-        Blueberry #303150
-        Night Sky #2B2B46
-        Dodger #69ADFF
-        Ice Cream #F7F7F8
-        Light Grey #BDBDCB
-        White #FFFFFF
-        Baby Blue #C1DDFF , #74ACEF
-    }
-</style>
-<body style="background-color: #2B2B46">
 
+<body class="bg-dark">
 <!-- Modal for change password and username for admin -->
 <div class="modal fade" id="updateCredentialModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <form id="updateCrdentialForm" class="modal-dialog modal-dialog-centered">
         <div  class="modal-content">
-            <div style="background-color: #2B2B46" class="modal-header">
+            <div class="modal-header bg-dark">
                 <h5 class="modal-title fs-5 text-light" id="staticBackdropLabel">Update Credential</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
@@ -58,7 +46,7 @@
 <div class="modal fade" id="CreateCredentialModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <form id="createAdninAccount" action="../controller/authController.php" class="modal-dialog modal-dialog-centered">
         <div  class="modal-content">
-            <div style="background-color: #2B2B46" class="modal-header">
+            <div  class="modal-header bg-dark">
                 <h5 class="modal-title fs-5 text-light" id="staticBackdropLabel">Create New Account</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
@@ -110,26 +98,26 @@
                 <li class="sidebar-item">
                     <a href="Products.php" class="sidebar-link">
                         <i class="fa-solid fa-list-check"></i>
-                        <span>Products</span>
+                        <span>Manage Product</span>
                     </a>
                 </li>
                 <li class="sidebar-item">
                     <a href="./UserManagement.php" class="sidebar-link">
                         <i class="fa-regular fa-circle-user"></i>
-                        <span>User Management</span>
+                        <span>Management User</span>
                     </a>
                 </li>
                 <li class="sidebar-item">
                     <a href="Branch.php" class="sidebar-link">
                         <i class="fa-regular fa-map"></i>
-                        <span>Branches</span>
+                        <span>Manage Branches</span>
                     </a>
                 </li>
 
                 <li class="sidebar-item">
                     <a href="./EmployeeSales.php" class="sidebar-link">
                         <i class="fa-solid fa-coins"></i>
-                        <span>Employee Sales</span>
+                        <span>Manage Employee Sales</span>
                     </a>
                 </li>
                 <li class="sidebar-item">
@@ -150,6 +138,13 @@
                         </li>
                         <li class="sidebar-item">
                             <a href="#" data-bs-target="#CreateCredentialModal" data-bs-toggle="modal" class="sidebar-link">Create New Account</a>
+                        </li>
+
+                        <li class="sidebar-item">
+                            <a href="Recycle_bin.php" class="sidebar-link">
+                                <i class="fa-regular text-danger fa-trash-can"></i>
+                                Recyle Bin
+                            </a>
                         </li>
                     </ul>
                 </li>
@@ -208,9 +203,6 @@
                                     style="width:50px;height:50px">
                             </lord-icon>
                         </div>
-                        <div class="card-footer border-0 bg-transparent">
-                            <a class="text-light"  href="./LowStacks_List.php" >View</a>
-                        </div>
                     </div>
 
                      <!-- card -->
@@ -232,7 +224,7 @@
                             </lord-icon>
                         </div>
                         <div class="card-footer border-0 bg-transparent">
-                            <a class="text-light"  href="./LowStacks_List.php" >View</a>
+                            <a class="text-light"  href="./UserManagement.php" >View</a>
                         </div>
                     </div>
 
@@ -254,7 +246,7 @@
                             </lord-icon>
                         </div>
                         <div class="card-footer border-0 bg-transparent">
-                            <a class="text-light"  href="./LowStacks_List.php" >View</a>
+                            <a class="text-light"  href="./Products.php" >View</a>
                         </div>
                     </div>
 
@@ -291,5 +283,3 @@
 <script src="../../AJAX/Dashboard.js"></script>
 </body>
 </html>
-
-<

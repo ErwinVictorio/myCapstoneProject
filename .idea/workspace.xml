@@ -4,7 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1535761-4a19-4f06-8b25-337f3f1eaeae" name="Changes" comment="" />
+    <list default="true" id="a1535761-4a19-4f06-8b25-337f3f1eaeae" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/controller/recycleController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/recycle_bin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/Recycle_bin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7c89abba-a118-4f98-b102-a5b095354779.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7c89abba-a118-4f98-b102-a5b095354779.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/UserManagement.js" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/UserManagement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/lowStackController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/lowStackController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/EmployeeSalesModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/EmployeeSalesModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/LowStackModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/LowStackModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/ProductModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ProductModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/SalesModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/SalesModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/UserModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/UserModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/employeeViewModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/employeeViewModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Admin_login.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Admin_login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Branch.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Branch.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Dashboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Employee_login.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Employee_login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/LowSatackList.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/LowSatackList.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/UserManagement.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/UserManagement.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/employeeView.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/employeeView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,14 +53,17 @@
     <setting file="file://$PROJECT_DIR$/AJAX/SalesReport.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/AJAX/UserManagement.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/AJAX/employeeView.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/includes/cdn.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/controller/ProductController.php" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/model/UserModel.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/model/recycle_bin.php" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/view/Admin_login.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/view/Dashboard.php" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/view/EmployeeSales.php" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/view/Employee_login.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/view/LowSatackList.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/view/Products.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/view/Recycle_bin.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/view/employeeView.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -52,26 +78,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;new-branch-master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;L:/PhpstormProjects/INVENTORY-MANAGEMENT-SYSTEM&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "new-branch-master",
+    "last_opened_file_path": "C:/xampp/htdocs/capstone",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="L:\PhpstormProjects\INVENTORY-MANAGEMENT-SYSTEM" />
@@ -221,7 +247,29 @@
       <workItem from="1733662103698" duration="3224000" />
       <workItem from="1733707088504" duration="605000" />
       <workItem from="1733751492818" duration="392000" />
-      <workItem from="1733752708057" duration="1066000" />
+      <workItem from="1733752708057" duration="1281000" />
+      <workItem from="1734009547498" duration="252000" />
+      <workItem from="1734010215849" duration="924000" />
+      <workItem from="1734095539767" duration="535000" />
+      <workItem from="1734245398490" duration="424000" />
+      <workItem from="1734262030495" duration="790000" />
+      <workItem from="1734296398595" duration="317000" />
+      <workItem from="1734297367673" duration="1336000" />
+      <workItem from="1734445649133" duration="1994000" />
+      <workItem from="1734566236644" duration="4002000" />
+      <workItem from="1734570254603" duration="2694000" />
+      <workItem from="1734572969159" duration="640000" />
+      <workItem from="1734573622205" duration="3066000" />
+      <workItem from="1734596409516" duration="2249000" />
+      <workItem from="1734617099961" duration="5945000" />
+      <workItem from="1734661006430" duration="57000" />
+      <workItem from="1734744262698" duration="5013000" />
+      <workItem from="1734787154491" duration="52000" />
+      <workItem from="1734788110712" duration="6315000" />
+      <workItem from="1734849374271" duration="34000" />
+      <workItem from="1734953135962" duration="2000" />
+      <workItem from="1734955247335" duration="3000" />
+      <workItem from="1735169145550" duration="4723000" />
     </task>
     <servers />
   </component>
