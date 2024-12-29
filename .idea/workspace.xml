@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1535761-4a19-4f06-8b25-337f3f1eaeae" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7c89abba-a118-4f98-b102-a5b095354779.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7c89abba-a118-4f98-b102-a5b095354779.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/employeeView.js" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/employeeView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/employeeView.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/employeeView.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +66,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "new-branch-master",
-    "last_opened_file_path": "C:/xampp/htdocs/capstone",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "L:/PhpstormProjects/INVENTORY-MANAGEMENT-SYSTEM",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -248,7 +253,9 @@
       <workItem from="1734849374271" duration="34000" />
       <workItem from="1734953135962" duration="2000" />
       <workItem from="1734955247335" duration="3000" />
-      <workItem from="1735169145550" duration="5360000" />
+      <workItem from="1735169145550" duration="6033000" />
+      <workItem from="1735175203200" duration="431000" />
+      <workItem from="1735457766574" duration="6302000" />
     </task>
     <servers />
   </component>
