@@ -165,7 +165,7 @@
                     <div  style="background-color: #3b82f6" class="card col-lg-5 text-light border-0">
                         <div class="card-body d-flex justify-content-around align-items-center ">
                             <div>
-                                <h6 class="card-title fw-bold">LOW STACK ALERT</h6>
+                                <h6 class="card-title fw-bold">LOW STOCK ALERT</h6>
                                 <?php
                                 include_once '../controller/ProductController.php';
                                 $controller = new \controller\ProductController();

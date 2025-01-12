@@ -4,21 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1535761-4a19-4f06-8b25-337f3f1eaeae" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="a1535761-4a19-4f06-8b25-337f3f1eaeae" name="Changes" comment="Final Update">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/7c89abba-a118-4f98-b102-a5b095354779.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7c89abba-a118-4f98-b102-a5b095354779.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/Products.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/admin_logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/admin_logout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/Branch.js" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/Branch.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/lowStackController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/lowStackController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/ProductModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ProductModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Admin_login.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Admin_login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/SalesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/SalesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/SalesModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/SalesModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/branchModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/branchModel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/Branch.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Branch.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/EmployeeSales.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/EmployeeSales.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Employee_login.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Employee_login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/Products.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Products.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/SalesReport.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/SalesReport.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/employeeView.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/employeeView.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +44,7 @@
     <setting file="file://$PROJECT_DIR$/AJAX/employeeView.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/includes/cdn.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/controller/ProductController.php" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/controller/SalesController.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/model/UserModel.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/model/recycle_bin.php" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/view/Admin_login.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
@@ -76,7 +73,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;L:/Downloads/INVENTORY_WITH__POS_MANAGEMENT_SYSTEM&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/capstone(erwin)&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -272,8 +269,22 @@
       <workItem from="1735978603906" duration="27000" />
       <workItem from="1735994995180" duration="3071000" />
       <workItem from="1735999731175" duration="678000" />
-      <workItem from="1736020032730" duration="3456000" />
+      <workItem from="1736020032730" duration="4424000" />
+      <workItem from="1736038947586" duration="66000" />
+      <workItem from="1736144943187" duration="30000" />
+      <workItem from="1736555742428" duration="3027000" />
+      <workItem from="1736674093516" duration="4529000" />
+      <workItem from="1736690860438" duration="1149000" />
     </task>
+    <task id="LOCAL-00001" summary="Final Update">
+      <option name="closed" value="true" />
+      <created>1736023892951</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1736023892951</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,5 +300,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Final Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Update" />
   </component>
 </project>
