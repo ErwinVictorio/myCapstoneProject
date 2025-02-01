@@ -4,25 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1535761-4a19-4f06-8b25-337f3f1eaeae" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7c89abba-a118-4f98-b102-a5b095354779.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7c89abba-a118-4f98-b102-a5b095354779.xml" afterDir="false" />
+    <list default="true" id="a1535761-4a19-4f06-8b25-337f3f1eaeae" name="Changes" comment="final update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/Products.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/admin_logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/admin_logout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/DbConnection.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/DbConnection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/lowStackController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/lowStackController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/ProductModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ProductModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/SalesModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/SalesModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Admin_login.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Admin_login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/Branch.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Branch.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/EmployeeSales.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/EmployeeSales.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Employee_login.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Employee_login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Products.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Products.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/employeeView.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/employeeView.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +24,9 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/AJAX/Branch.js" root0="SKIP_INSPECTION" />
@@ -79,7 +65,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "L:/Downloads/TouristDestanationIfoHub",
+    "last_opened_file_path": "L:/Downloads",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -278,7 +264,19 @@
       <workItem from="1736020032730" duration="2964000" />
       <workItem from="1736993170067" duration="782000" />
       <workItem from="1736994095542" duration="1113000" />
+      <workItem from="1737253250959" duration="820000" />
+      <workItem from="1737262204867" duration="865000" />
+      <workItem from="1737266065641" duration="166000" />
     </task>
+    <task id="LOCAL-00001" summary="final update">
+      <option name="closed" value="true" />
+      <created>1737253372163</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1737253372163</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,5 +292,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="final update" />
+    <option name="LAST_COMMIT_MESSAGE" value="final update" />
   </component>
 </project>
