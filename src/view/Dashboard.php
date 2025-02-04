@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
     <?php
-     require '../../includes/cdn.php'
+     require '../../includes/cdn.php';
     ?>
 </head>
 
@@ -41,7 +41,6 @@
     </form>
 </div>
 
-
 <!-- Modal for create new account for admin -->
 <div class="modal fade" id="CreateCredentialModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <form id="createAdninAccount" action="../controller/authController.php" class="modal-dialog modal-dialog-centered">
@@ -52,8 +51,8 @@
             </div>
             <div class="modal-body">
                 <div class="form-floating mb-3">
-                    <input name="Newfullname" type="text" class="form-control" id="Newfullname" placeholder="Username">
-                    <label for="Newfullname">Username</label>
+                    <input name="Newfullname" type="text" class="form-control" id="Newfullname" placeholder="Fullname">
+                    <label for="Newfullname">Fullname</label>
                     <div id="Newfullname_msg" class="invalid-feedback"></div>
                 </div>
 
@@ -69,10 +68,17 @@
                     <div id="NewPassword_msg" class="invalid-feedback"></div>
                 </div>
 
+               <div class="form-floating mb-3">
+                    <input  type="password" class="form-control" id="ConfirmPassword" placeholder="Confirm Password">
+                    <label for="ConfirmPassword">Confirm Password</label>
+                    <div id="ConfirmPassword_msg" class="invalid-feedback"></div>
+                </div>
+
+
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button style="background-color: #2B2B46" type="submit" class="btn text-light">Create Now</button>
+                <button id="btn_createAccount" style="background-color: #2B2B46" type="submit" class="btn text-light">Create Now</button>
             </div>
         </div>
     </form>
@@ -188,7 +194,9 @@
                     <div  style="background-color: #818cf8" class="card  col-lg-5 text-light border-0">
                         <div class="card-body d-flex justify-content-around align-items-center ">
                             <div>
-                                <h6 class="card-title fw-bold">SALES</h6>
+                                <div class="p-0">
+                                    <h6 class="card-title fw-bold">TOTAL SALES</h6>
+                                </div>
                                 <?php
                                 include_once '../controller/SalesController.php';
                                 $Sales_controller = new \controller\SalesController();
@@ -209,7 +217,7 @@
                     <div style="background-color: #34d399"  class="card  col-lg-5 text-light border-0">
                         <div class="card-body d-flex justify-content-around align-items-center ">
                             <div>
-                                <h6 class="card-title fw-bold">EMPLOYEE</h6>
+                                <h6 class="card-title fw-bold">TOTAL EMPLOYEE</h6>
                                 <?php
                                 include_once '../controller/UserController.php';
                                 $controller = new \controller\UserController();
@@ -232,7 +240,7 @@
                     <div  style="background-color: #14B898" class="card col-lg-5 text-light border-0">
                         <div class="card-body d-flex justify-content-around align-items-center ">
                             <div>
-                                <h6 class="card-title fw-bold">PRODUCTS</h6>
+                                <h6 class="card-title fw-bold">TOTAL PRODUCTS</h6>
                                 <?php
                                 $controller = new \controller\ProductController();
                                 $controller->DisplaySum();
@@ -250,8 +258,8 @@
                         </div>
                     </div>
 
-                    <section class="container-fluid mt-3 d-lg-flex d-md-flex p-4 gap-3">
-                        <div class="card bg-transparent col-lg-8">
+                    <section class="container-fluid mt-3 d-lg-flex  p-4 gap-3 ">
+                        <div class="card bg-transparent col-lg-8 col-md-10">
                             <canvas id="myChart"></canvas>
                         </div>
                         <div class="container d-flex flex-column gap-2 card bg-transparent p-4">
@@ -283,3 +291,4 @@
 <script src="../../AJAX/Dashboard.js"></script>
 </body>
 </html>
+

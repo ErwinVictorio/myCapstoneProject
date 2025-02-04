@@ -8,14 +8,23 @@
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/7c89abba-a118-4f98-b102-a5b095354779.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7c89abba-a118-4f98-b102-a5b095354779.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AJAX/Branch.js" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/Branch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/SalesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/SalesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/Dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/Products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/UserManagement.js" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/UserManagement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/ProductModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ProductModel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/SalesModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/SalesModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/UserModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/UserModel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/branchModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/branchModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/employeeViewModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/employeeViewModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Admin_login.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Admin_login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/Branch.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Branch.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Dashboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/EmployeeSales.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/EmployeeSales.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Employee_login.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Employee_login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/LowSatackList.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/LowSatackList.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/Products.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Products.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/SalesReport.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/SalesReport.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/employeeView.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/employeeView.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/UserManagement.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/UserManagement.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,12 +57,15 @@
     <setting file="file://$PROJECT_DIR$/src/model/UserModel.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/model/recycle_bin.php" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/view/Admin_login.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/view/Branch.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/view/Dashboard.php" root0="SKIP_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/view/EmployeeSales.php" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/view/Employee_login.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/view/LowSatackList.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/view/Products.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/view/Recycle_bin.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/view/SalesReport.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/view/UserManagement.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/view/employeeView.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -73,7 +85,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/capstone(erwin)&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/myCapstoneProject&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -275,6 +287,16 @@
       <workItem from="1736555742428" duration="3027000" />
       <workItem from="1736674093516" duration="4529000" />
       <workItem from="1736690860438" duration="1149000" />
+      <workItem from="1738158717082" duration="648000" />
+      <workItem from="1738221537968" duration="605000" />
+      <workItem from="1738369415639" duration="5308000" />
+      <workItem from="1738533548950" duration="598000" />
+      <workItem from="1738545856759" duration="1867000" />
+      <workItem from="1738547740812" duration="5702000" />
+      <workItem from="1738566856793" duration="4999000" />
+      <workItem from="1738582284179" duration="491000" />
+      <workItem from="1738597819006" duration="471000" />
+      <workItem from="1738671115878" duration="10042000" />
     </task>
     <task id="LOCAL-00001" summary="Final Update">
       <option name="closed" value="true" />
