@@ -35,7 +35,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button style="background-color: #2B2B46" type="submit" class="btn text-light">Save Changes</button>
+                <button id="saveChanges" style="background-color: #2B2B46" type="submit" class="btn text-light">Save Changes</button>
             </div>
         </div>
     </form>
@@ -73,7 +73,6 @@
                     <label for="ConfirmPassword">Confirm Password</label>
                     <div id="ConfirmPassword_msg" class="invalid-feedback"></div>
                 </div>
-
 
             </div>
             <div class="modal-footer">
@@ -152,6 +151,14 @@
                                 Recyle Bin
                             </a>
                         </li>
+
+                         <li class="sidebar-item">
+                            <a href="logsViewer.php" class="sidebar-link">
+                                <i class="fa-regular fa-file text-primary"></i>
+                                Logs
+                            </a>
+                        </li>
+
                     </ul>
                 </li>
 

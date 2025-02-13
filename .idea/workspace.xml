@@ -5,26 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a1535761-4a19-4f06-8b25-337f3f1eaeae" name="Changes" comment="Final Update">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7c89abba-a118-4f98-b102-a5b095354779.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7c89abba-a118-4f98-b102-a5b095354779.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/logsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/logs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/logsViewer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/36b32060-9bb9-43d3-9226-f385b7b9aa41.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/36b32060-9bb9-43d3-9226-f385b7b9aa41.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/Branch.js" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/Branch.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AJAX/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/Dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/Products.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/UserManagement.js" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/UserManagement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/authController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/authController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/ProductModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ProductModel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/SalesModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/SalesModel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/UserModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/UserModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/branchModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/branchModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/employeeViewModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/employeeViewModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Admin_login.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Admin_login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Branch.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Branch.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/authModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/authModel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/Dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Dashboard.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/EmployeeSales.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/EmployeeSales.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Employee_login.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Employee_login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/LowSatackList.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/LowSatackList.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Products.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Products.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/SalesReport.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/SalesReport.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/UserManagement.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/UserManagement.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +35,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -85,7 +79,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/myCapstoneProject&quot;,
+    &quot;last_opened_file_path&quot;: &quot;L:/Downloads/Crud_with_databseManeger&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -297,6 +291,24 @@
       <workItem from="1738582284179" duration="491000" />
       <workItem from="1738597819006" duration="471000" />
       <workItem from="1738671115878" duration="10042000" />
+      <workItem from="1738821878799" duration="288000" />
+      <workItem from="1738822179439" duration="33000" />
+      <workItem from="1738825846832" duration="20000" />
+      <workItem from="1738848439121" duration="2304000" />
+      <workItem from="1738855732633" duration="861000" />
+      <workItem from="1738882560367" duration="967000" />
+      <workItem from="1738886079474" duration="3548000" />
+      <workItem from="1738897096425" duration="34000" />
+      <workItem from="1738919546462" duration="2195000" />
+      <workItem from="1738933757753" duration="1546000" />
+      <workItem from="1738941857693" duration="1456000" />
+      <workItem from="1738966773261" duration="30000" />
+      <workItem from="1739059034076" duration="472000" />
+      <workItem from="1739059860480" duration="2861000" />
+      <workItem from="1739365450480" duration="2010000" />
+      <workItem from="1739377469114" duration="3714000" />
+      <workItem from="1739413103226" duration="52000" />
+      <workItem from="1739473467510" duration="2541000" />
     </task>
     <task id="LOCAL-00001" summary="Final Update">
       <option name="closed" value="true" />
@@ -324,6 +336,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="update with the activity logs" />
     <MESSAGE value="Final Update" />
     <option name="LAST_COMMIT_MESSAGE" value="Final Update" />
   </component>
